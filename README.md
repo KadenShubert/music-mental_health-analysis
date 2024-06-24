@@ -1,10 +1,10 @@
 # Music Mental Health EDA
 
-People often use music to impact their moods and mental health awareness is more present than ever. The analysis of this dataset aims to identify patterns within the listening habits to gain insights into what makes listening habits have a positive versus negative impact for a given person, these insights could provide enough information for someone to identify how a change in their listening habits could positively impact their mental health.
+Music is often used to influence moods, and with growing awareness around mental health, understanding the impact of listening habits on mental well-being is crucial. This project aims to analyze a dataset to identify patterns in listening habits that positively or negatively affect mental health. The insights gained could help individuals adjust their music consumption to improve their mental well-being.
 
 ## Solution
-The goal of this project was to uncover the relationships in listening habits of a diverse group of individuals and how they report it impacts their mental health using [this Kaggle dataset](https://www.kaggle.com/datasets/catherinerasgaitis/mxmh-survey-results). EDA was performed on the dataset to uncover these relationships along with visualizations to support the findings. A Random Forest Classification model was trained using the cleaned and formatted data, using the features deemed to be most impactful from a feature importance analysis, along with the ability to input new data to predict if the provided personal features and listening habits will lead to improved mental health.
+This project explores the relationships between the listening habits of a diverse group of individuals and their reported mental health status using [this Kaggle dataset](https://www.kaggle.com/datasets/catherinerasgaitis/mxmh-survey-results). Exploratory Data Analysis (EDA) was performed to uncover these relationships, supported by visualizations. Additionally, a Random Forest Classification model was trained on the cleaned and formatted data. The model uses the most impactful features identified through feature importance analysis to predict whether certain personal features and listening habits can lead to improved mental health.
 
-### Repo structure
-- **Assignment_1_Kaden_Shubert.ipynb**: A Jupyter Notebook containing all data analysis, visualizations and model training. This notebook was developed use in Google Colab.
-- **Music_MentalHealth_Data.csv**: Dataset from kaggle containing mental health information along with personal information from a survey spread through numerous online forums.
+### Repository Structure
+- **Assignment_1_Kaden_Shubert.ipynb**: This Jupyter Notebook contains all data analysis, visualizations, and model training. It was developed for use in Google Colab.
+- **Music_MentalHealth_Data.csv**: This is the dataset from Kaggle, which includes mental health information and personal details collected through a survey distributed across various online forums.
